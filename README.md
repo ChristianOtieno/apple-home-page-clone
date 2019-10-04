@@ -14,20 +14,19 @@ You can find the original project specification [here](https://www.theodinprojec
 
 - HTML5
 - CSS3 & (layout property)
-- Flex & Grids
 - MarkDown Syntax
 
 ## Work Done
 
-- [] Lay out the basic structure of the page using empty semantic HTML elements that are appropriately sized and positioned.
-- [] Set up the top navigation bar.
-- [] Set up the main background image.
-- [] Use Semantic HTML.
-- [] Use Flex or grid in the project.
-- [] Fill in and position the additional sections.
-- [] Pass CSS stylelint test.
-- [] Check html with W3C validator.
-- [] Validate Readme file with markdown lint.
+- [x] Lay out the basic structure of the page using empty semantic HTML elements that are appropriately sized and positioned.
+- [x] Set up the top navigation bar.
+- [x] Set up the main background image.
+- [x] Use Semantic HTML.
+- [x] Use Flex or grid in the project.
+- [x] Fill in and position the additional sections.
+- [x] Pass CSS stylelint test.
+- [x] Check html with W3C validator.
+- [x] Validate Readme file with markdown lint.
 
 ## How to Install and use
 
