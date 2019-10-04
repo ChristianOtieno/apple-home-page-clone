@@ -15,6 +15,7 @@ body {
     color: white;
     text-align: center;
     margin-bottom: 2px;
+    margin: 0 auto;
 }
 
 .main-grid {
@@ -57,6 +58,22 @@ body {
     background-color: rgba(0, 0, 0, 0.45);
 }
 
+.aside-one {
+    grid-area: aside-one;
+}
+
+.aside-two {
+    grid-area: aside-two;
+}
+
+.aside-three {
+    grid-area: aside-three;
+}
+
+.aside-four {
+    grid-area: aside-four;
+}
+
 .main-content a {
     display: block;
     text-align: center;
@@ -64,6 +81,10 @@ body {
     color: white;
     font-family: 'Roboto', sans-serif;
     font-weight: 100;
+}
+
+.top-title {
+    font-size: 100px;
 }
 
 .header-apple {
@@ -128,4 +149,96 @@ body {
     background-position: 50% -207px;
     width: 100%;
     height: 30px;
+}
+
+.search-bar {
+    width: 155px;
+}
+
+input {
+    border-radius: 10px;
+    width: 90px;
+    margin: 0 auto;
+    margin-left: 15px;
+    margin-top: 8px;
+    background: none;
+    border-top: 1px solid #2e2e2e;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid rgb(144, 144, 144);
+    background: url("https://icon-library.net/images/search-icon-vector-free/search-icon-vector-free-12.jpg");
+    background-size: 13px;
+    background-position: 8px 4px;
+    background-repeat: no-repeat;
+    padding-left: 25px;
+}
+
+input:focus {
+    width: 100px;
+    margin-left: 10px;
+    background: url("https://icon-library.net/images/search-icon-vector-free/search-icon-vector-free-12.jpg"), white;
+    background-size: 13px;
+    background-position: 8px 4px;
+    background-repeat: no-repeat;
+    background-size: 13px;
+    background-position: 8px 4px;
+    background-repeat: no-repeat;
+    transition: width 0.2s, margin 0.2s;
+}
+
+.footer-navigation {
+    width: 1024px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 12px;
+}
+
+.footer-navigation-top {
+    margin-left: 300px;
+}
+
+.footer-navigation-top p {
+    color: #2e2e2e;
+}
+
+li {
+    display: inline;
+    padding-right: 5px;
+}
+
+li {
+    border-right: 1px solid #bfbfbf;
+}
+
+p,
+ul {
+    display: inline-block;
+}
+
+a {
+    text-decoration: none;
+    color: #08c;
+}
+
+li:last-child {
+    border: none;
+}
+
+.copyright {
+    display: block;
+    font-size: 10px;
+    color: rgb(90, 90, 90);
+}
+
+.copyright p,
+.copyright ul {
+    margin-top: 0;
+}
+
+.copyright p {
+    margin-left: 300px;
+}
+
+.copyright ul {
+    padding: 0;
 }
