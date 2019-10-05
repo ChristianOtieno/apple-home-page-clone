@@ -11,11 +11,14 @@ body {
 }
 
 .wrapper {
-    position: relative;
+    /* position: relative;
     color: white;
     text-align: center;
     margin-bottom: 2px;
-    margin: 0 auto;
+    margin: 0 auto; */
+    width: 94%;
+    height: 650px;
+    margin: auto;
 }
 
 .main-grid {
