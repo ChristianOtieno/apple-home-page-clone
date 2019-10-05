@@ -11,19 +11,15 @@ body {
 }
 
 .wrapper {
-    /* position: relative;
-    color: white;
-    text-align: center;
-    margin-bottom: 2px;
-    margin: 0 auto; */
     width: 94%;
-    height: 650px;
+    height: 850px;
     margin: auto;
+    margin-bottom: 2px;
 }
 
 .main-grid {
     display: grid;
-    grid-template-areas: "main main main main""aside-one aside-two aside-three aside-four";
+    grid-template-areas: "main main main main""asides asides asides asides";
     grid-column: repeat(4, 1fr);
     grid-gap: 3px;
 }
@@ -61,20 +57,17 @@ body {
     background-color: rgba(0, 0, 0, 0.45);
 }
 
-.aside-one {
-    grid-area: aside-one;
+.asides {
+    grid-area: asides;
+    display: flex;
+    flex-direction: row;
+    margin: 0 3.5%;
+    background: red;
 }
 
-.aside-two {
-    grid-area: aside-two;
-}
-
-.aside-three {
-    grid-area: aside-three;
-}
-
-.aside-four {
-    grid-area: aside-four;
+.asides a img {
+    max-width: 100%;
+    height: 100%;
 }
 
 .main-content a {
