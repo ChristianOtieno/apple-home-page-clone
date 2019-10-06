@@ -79,7 +79,35 @@ body {
 }
 
 .top-title {
-    font-size: 100px;
+    position: absolute;
+    top: 16%;
+    left: 30%;
+    color: white;
+    font-weight: 100;
+    font-family: "Roboto", sans-serif;
+    font-size: 60px;
+}
+
+#middle-title {
+    position: absolute;
+    top: 28%;
+    width: 51%;
+    text-align: center;
+    left: 25%;
+    font-size: 30px;
+    font-family: "Roboto", sans-serif;
+    color: white;
+}
+
+#bottom-title {
+    position: absolute;
+    top: 40%;
+    width: 51%;
+    text-align: center;
+    left: 25%;
+    font-size: 25px;
+    font-family: "Roboto", sans-serif;
+    color: white;
 }
 
 .header-apple {
