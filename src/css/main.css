@@ -78,10 +78,17 @@ body {
     font-weight: 100;
 }
 
+.title a {
+    display: flex;
+    justify-content: center;
+    min-width: 980px;
+    border: 1px solid red;
+}
+
 .top-title {
     position: absolute;
     top: 16%;
-    left: 30%;
+    left: 25%;
     color: white;
     font-weight: 100;
     font-family: "Roboto", sans-serif;
