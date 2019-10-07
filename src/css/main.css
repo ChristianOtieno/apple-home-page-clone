@@ -27,6 +27,7 @@ body {
 .main-content {
     grid-area: main;
     background-size: cover;
+    margin: 0 3.5%;
     background: url("http://web.archive.org/web/20140301004302im_/http://images.apple.com/v/home/as/images/your_verse_hero.jpg");
     background-repeat: no-repeat;
     background-position: 50% 100%;
