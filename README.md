@@ -6,15 +6,15 @@ This project consists of building a webpage using images as a background and add
 
 You can find the original project specification [here](https://www.theodinproject.com/courses/html5-and-css3/lessons/building-with-backgrounds-and-gradients)
 
-## Authors
-
-[Christian Otieno](https://www.linkedin.com/in/christianotieno/)
+|Clone Page|
+|:---:|
+|![Screenshot](./src/img/README/screenshot.png)|
 
 ## Tools Used
 
 - HTML5
-- CSS3 & (layout property)
 - MarkDown Syntax
+- CSS3 & (layout property)
 
 ## Work Done
 
@@ -30,8 +30,16 @@ You can find the original project specification [here](https://www.theodinprojec
 
 ## How to Install and use
 
-- clone the repository `git clone https://github.com/ChristianOtieno/apple-home-page-clone.git`
+- clone the repository `git clone https://github.com/christianotieno/apple-home-page-clone.git`
 - open command prompt in `apple-home-page-clone` folder
 - run the application using open live server functionality.
 
 LInk to live demo [here](https://christianotieno.github.io/apple-home-page-clone/.)
+
+## Author's social links
+
+[![Developer](https://img.shields.io/badge/Developer-Christian%20Otieno-brightgreen)](https://www.github.com/christianotieno/)
+
+- Github: [@christianotieno](https://github.com/christianotieno)
+- Twitter: [@iamchrisotieno](https://twitter.com/iamchrisotieno)
+- Linkedin: [Christian Otieno](https://www.linkedin.com/in/christianotieno/)
